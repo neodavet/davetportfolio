@@ -4,7 +4,7 @@ const portfolioData = [
         title: "Be Local - Local Business Platform",
         description: "A comprehensive e-commerce platform built with WooCommerce and UX Builder, featuring a custom dashboard and robust WordPress security measures. The platform runs on Siteground with MySQL database integration for optimal performance.",
         // image: "https://via.placeholder.com/400x300",
-        technologies: ["Woocomerce", "UX Builder", "Dashboard Customization", "WordPress Security", "Siteground", "MySQL"],
+        technologies: ["Woocomerce", "UX Builder", "Dashboard Customization", "WordPress Security", "Zapier", "Siteground", "MySQL"],
         link: "https://be-local.life/"
     },
     {
