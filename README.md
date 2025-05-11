@@ -1,8 +1,5 @@
 # Portfolio Website @neodavet
-David Tavares Senior Web Full Stack Develpment Porfolio
-
-1. Original Version (`index.html`)
-2. Bootstrap Version (`index-bootstrap.html`)
+David Tavares Senior Web Full Stack Development Portfolio
 
 ## Features
 
@@ -14,33 +11,21 @@ David Tavares Senior Web Full Stack Develpment Porfolio
 - WhatsApp floating button
 - Social media links
 
-## Version Comparison
-
-### Original Version
+## Features
 - Custom CSS styling
 - Vanilla JavaScript
 - Simple and clean design
 - Full control over styling
 
-### Bootstrap Version
-- Built with Bootstrap 5
-- Enhanced responsive design
-- Modern card-based layout
-- Improved typography
-- Better mobile navigation
-
 ## File Structure
 
 ```
 portfolio/
-├── index.html              # Original version
-├── index-bootstrap.html    # Bootstrap version
+├── index.html              # Main HTML file
 ├── css/
-│   ├── styles.css         # Original styles
-│   └── styles-bootstrap.css # Bootstrap custom styles
+│   └── styles.css         # Custom styles
 ├── js/
-│   ├── main.js            # Original JavaScript
-│   └── main-bootstrap.js  # Bootstrap version JavaScript
+│   └── main.js            # JavaScript functionality
 └── assets/
     └── resume.pdf         # Resume file
 ```
@@ -48,31 +33,24 @@ portfolio/
 ## Setup
 
 1. Clone the repository
-2. Open either `index.html` or `index-bootstrap.html` in your browser
-3. Customize the content in the HTML files
-4. Update the portfolio data in the JavaScript files
+2. Open `index.html` in your browser
+3. Customize the content in the HTML file
+4. Update the portfolio data in the JavaScript file
 5. Add your resume to the `assets` folder
 
 ## Dependencies
-
-### Original Version
-- Font Awesome 6.0.0
-
-### Bootstrap Version
-- Bootstrap 5.3.0
 - Font Awesome 6.0.0
 
 ## Customization
 
 ### Portfolio Items
-Edit the `portfolioData` array in the JavaScript files to add or modify portfolio items.
+Edit the `portfolioData` array in the JavaScript file to add or modify portfolio items.
 
 ### Styling
-- Original version: Modify `css/styles.css`
-- Bootstrap version: Modify `css/styles-bootstrap.css`
+Modify `css/styles.css` to customize the appearance.
 
 ### Content
-Update the content in the HTML files to match your information.
+Update the content in the HTML file to match your information.
 
 ## Browser Support
 
