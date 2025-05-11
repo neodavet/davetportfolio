@@ -2,69 +2,69 @@
 const portfolioData = [
     {
         title: "Be Local - Local Business Platform",
-        description: "E-commerce platform for local businesses",
+        description: "A comprehensive e-commerce platform built with WooCommerce and UX Builder, featuring a custom dashboard and robust WordPress security measures. The platform runs on Siteground with MySQL database integration for optimal performance.",
         // image: "https://via.placeholder.com/400x300",
         technologies: ["Woocomerce", "UX Builder", "Dashboard Customization", "WordPress Security", "Siteground", "MySQL"],
         link: "https://be-local.life/"
     },
     {
         title: "Aerofarms - Vertical Farming Corporate Website",
-        description: "Aerofarms is a vertical farming company that grows produce in a controlled environment using artificial intelligence and precision agriculture.",
+        description: "A sophisticated corporate website built with WordPress and Beaver Builder, featuring advanced analytics integration and comprehensive security measures. The site is optimized for performance and hosted on WP Engine with MySQL database support.",
         // image: "https://via.placeholder.com/400x300",
         technologies: ["WordPress", "Beaver Builder", "WP Engine", "MySQL", "WordPress Security", "Web Optimization", "Web Analytics"],
         link: "https://www.aerofarms.com/"
     },
     {
         title: "Phin - Social Good Platform",
-        description: "A donation gifting platform that helps companies build trust with employees and customers through social good campaigns. Features include Slack integration, HR system compatibility, and automated donation management.",
+        description: "A modern web application built with React and Node.js, featuring GraphQL API integration and Contentful CMS. The platform includes Slack integration, HR system compatibility, and is hosted on AWS with MongoDB database. Includes comprehensive monitoring with Honeybadger.",
         technologies: ["React", "Node.js", "GraphQL", "Contentful", "AWS", "MongoDB", "LoadNinja", "Honeybadger"],
         link: "https://www.phinforgood.com/"
     },
     {
         title: "Praeses - Custom Corporate Website",
-        description: "Praeses is a custom corporate website that allows users to share and discover news from around the world.",
+        description: "A fully customized WordPress website featuring custom Gutenberg blocks and a bespoke theme. The site includes custom plugin development, comprehensive web optimization, and is hosted on GoDaddy with enhanced security measures.",
         // image: "https://via.placeholder.com/400x300",
-        technologies: ["WordPress","Custom Gutenberg Blocks", "Custom Theme", "Custom Plugins", "Web Optimization", "Go Daddy"],
+        technologies: ["WordPress","Custom Gutenberg Blocks", "Custom Theme", "ACF", "Custom Plugins", "Web Optimization", "GoDaddy"],
         link: "https://www.praeses.com/"
     },
     {
         title: "Modena Warehouse - Non-profit Community Organization",
-        description: "Modena Warehouse is a non-profit community organization that provides support to the community in Gardiner, New York.",
+        description: "A comprehensive WordPress website with custom theme development and Gutenberg integration. Features include Monday.com integration, Google Sheets automation, Givebutter donation system, and Klaviyo email marketing. Hosted on Siteground with MySQL database.",
         // image: "https://via.placeholder.com/400x300",
         technologies: ["WordPress", "Gutenberg", "Custom Theme", "Monday.com", "Google Sheet ", "Givebutter", "Klaviyo", "Siteground", "MySQL"],
         link: "https://modenawarehouse.com/"
     },
     {
         title: "Ballet Cuba - Dance National Company",
-        description: "Ballet Cuba is a dance company that performs ballet and modern dance.",
+        description: "A custom Drupal website featuring a bespoke theme and custom data structure. The platform is built with MariaDB database and is hosted on Bluehost, including advanced content management capabilities for dance company information.",
         // image: "https://via.placeholder.com/400x300",
         technologies: ["Drupal", "Custom Theme", "Custom Data Structure", "MariaDB"],
         link: "https://balletcuba.cult.cu/"
     },
     {
         title: "Lukac's Pottery - Shopify Local Craft Store",
-        description: "A full-featured e-commerce platform with real-time inventory management",
+        description: "A fully customized Shopify e-commerce platform featuring a custom Liquid theme and real-time inventory management. The project included comprehensive site migration and optimization for a local craft store.",
         // image: "https://via.placeholder.com/400x300",
         technologies: ["Shopify", "Liquid", "Custom Theme", "Site Migration"],
         link: "https://lukacspottery.com/"
     },
     {
         title: "IpsCuba - WorldWide News Agency Platform",
-        description: "IpsCuba is a social news platform that allows users to share and discover news from around the world.",
+        description: "A robust WordPress news platform featuring a custom theme and MariaDB database integration. The site includes comprehensive security measures, web optimization, and is hosted on Netuy with advanced content management capabilities.",
         // image: "https://via.placeholder.com/400x300",
         technologies: ["WordPress", "Custom Theme", "MariaDB", "WordPress Security", "Web Optimization", "Netuy"],
         link: "https://www.ipscuba.net/"
     },
     {
         title: "Estudio Figueroa Vives - Art Studio",
-        description: "Estudio Figueroa Vives is a art studio that allows users to share and discover art from around the world.",
+        description: "A multilingual WordPress website built with WPBakery page builder, featuring comprehensive security measures and web optimization. The site is hosted on HostPapa with MySQL database support and includes advanced content management capabilities.",
         // image: "https://via.placeholder.com/400x300",
         technologies: ["WordPress", "WPBakery", "MySQL", "Multiple Languages", "WordPress Security", "Web Optimization", "Host Papa"],
         link: "https://estudiofigueroavives.com/en/home/"
     },
     {
         title: "Madu Tours - Travel Agency",
-        description: "Madu Tours is a travel agency that allows users to share and discover travel from around the world.",
+        description: "A multilingual WordPress website built with The 7 theme framework, featuring comprehensive content management capabilities. The site is optimized for performance and includes MySQL database integration for travel agency information.",
         // image: "https://via.placeholder.com/400x300",
         technologies: ["WordPress", "The 7", "MySQL", "Multiple Languages"],
         link: "https://madutours.com/"
@@ -78,23 +78,23 @@ const portfolioData = [
     },
     {
         title: "Blue Ocean Tech - Corporate Website",
-        description: "Blue Ocean Tech is a corporate website that allows users to share and discover travel from around the world.",
+        description: "A custom WordPress corporate website featuring a bespoke theme and comprehensive security measures. The site is optimized for performance and hosted on Siteground with MySQL database integration.",
         // image: "https://via.placeholder.com/400x300",
-        technologies: ["WordPress", "Custom Theme", "MySQL", "WordPress Security", "Web Optimization", "Siteground"],
+        technologies: ["WordPress", "Custom Theme", "ACF", "MySQL", "WordPress Security", "Web Optimization", "Siteground"],
         link: "https://blueoceantech.us/"
     },
     {
         title: "Dador Havana - Fashion Design Studio",
-        description: "Dador Havana is a fashion design studio that allows users to share and discover fashion from around the world.",
+        description: "A custom WordPress e-commerce website featuring WooCommerce integration and a bespoke theme. The site includes comprehensive security measures, web optimization, and MySQL database integration for fashion design studio products.",
         // image: "https://via.placeholder.com/400x300",
         technologies: ["WordPress", "WooCommerce", "Custom Theme", "MySQL", "WordPress Security", "Web Optimization"],
         link: "https://www.dadorhavana.com/"
     },
     {
         title: "OHD Partners - Corporate Website",
-        description: "OHD Partners is a corporate website that allows users to share and discover travel from around the world.",
+        description: "A professional WordPress corporate website built with Elementor page builder, featuring comprehensive security measures and responsive design. The project included successful hack recovery, complete site migration, and extensive web optimization. The site is hosted on Siteground with MySQL database integration, ensuring robust performance and security.",
         // image: "https://via.placeholder.com/400x300",
-        technologies: ["WordPress", "Custom Theme", "MySQL", "Hack Recovery", "Site Migration" ,"WordPress Security", "Web Optimization", "Siteground"],
+        technologies: ["WordPress", "Elementor", "MySQL", "Hack Recovery", "Site Migration" ,"WordPress Security", "Web Optimization", "Siteground"],
         link: "https://ohdpartners.com/"
     }
 ];
