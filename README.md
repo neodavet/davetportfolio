@@ -26,8 +26,6 @@ portfolio/
 │   └── styles.css         # Custom styles
 ├── js/
 │   └── main.js            # JavaScript functionality
-└── assets/
-    └── resume.pdf         # Resume file
 ```
 
 ## Setup
@@ -36,7 +34,6 @@ portfolio/
 2. Open `index.html` in your browser
 3. Customize the content in the HTML file
 4. Update the portfolio data in the JavaScript file
-5. Add your resume to the `assets` folder
 
 ## Dependencies
 - Font Awesome 6.0.0
