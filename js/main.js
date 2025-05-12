@@ -251,4 +251,65 @@ function initHeroSlider() {
 document.addEventListener('DOMContentLoaded', function() {
     initHeroSlider();
     loadPortfolioItems();
+});
+
+// Mobile Menu Functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+    const navContainer = document.querySelector('.nav-container');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const sections = document.querySelectorAll('section[id]');
+
+    // Function to update active menu item
+    function updateActiveMenuItem() {
+        const scrollPosition = window.scrollY;
+
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - 100; // Offset for header
+            const sectionHeight = section.offsetHeight;
+            const sectionId = section.getAttribute('id');
+            
+            if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                // Remove active class from all links
+                navLinks.forEach(link => link.classList.remove('active'));
+                
+                // Add active class to corresponding link
+                const activeLink = document.querySelector(`.nav-links a[href="#${sectionId}"]`);
+                if (activeLink) {
+                    activeLink.classList.add('active');
+                }
+            }
+        });
+    }
+
+    // Toggle menu
+    mobileMenuBtn.addEventListener('click', function() {
+        this.classList.toggle('active');
+        navContainer.classList.toggle('active');
+        document.body.style.overflow = navContainer.classList.contains('active') ? 'hidden' : '';
+    });
+
+    // Close menu when clicking on a link
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenuBtn.classList.remove('active');
+            navContainer.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+    });
+
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+        if (!navContainer.contains(event.target) && !mobileMenuBtn.contains(event.target)) {
+            mobileMenuBtn.classList.remove('active');
+            navContainer.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+    });
+
+    // Update active menu item on scroll
+    window.addEventListener('scroll', updateActiveMenuItem);
+    
+    // Initial check for active section
+    updateActiveMenuItem();
 }); 
