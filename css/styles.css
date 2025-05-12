@@ -63,7 +63,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #3498db;
+    color: #185D8C;
 }
 
 /* Hero Section */
@@ -163,7 +163,7 @@ nav {
     display: inline-block;
     padding: 1rem 2rem;
     font-size: 1.1rem;
-    background-color: #3498db;
+    background-color: #185D8C;
     color: white;
     border: none;
     border-radius: 5px;
@@ -364,7 +364,7 @@ nav {
 #load-more {
     display: inline-block;
     padding: 0.75rem 2rem;
-    background-color: #3498db;
+    background-color: #185D8C;
     color: white;
     border: none;
     border-radius: 5px;
